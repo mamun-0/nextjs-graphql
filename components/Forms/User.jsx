@@ -8,9 +8,9 @@ export default function User({ searchId, setSearchId }) {
             User Id :
           </label>
           <input
-            className="border border-black p-1 rounded-md"
+            className="border border-black p-1 rounded-md w-1/2"
             id="userid"
-            placeholder="user search id"
+            placeholder="user search id e.g. 3260, 3311,3345,3324,..."
             type="text"
             value={searchId}
             onChange={(e) => {
